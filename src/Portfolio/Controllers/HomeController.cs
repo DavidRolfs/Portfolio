@@ -22,5 +22,9 @@ namespace Portfolio.Controllers
             var allProjects = GitHub.GetProjects();
             return View(allProjects);
         }
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }

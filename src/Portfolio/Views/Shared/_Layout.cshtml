@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <link href="~/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="~/css/styles.css" rel="stylesheet" type="text/css" />
+        <title>Porfolio</title>
+    </head>
+    <body>
+        <h1 class="welcome">David Rolfs</h1>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+
+            @RenderBody()
+        </div>
+    </body>
+</html>
