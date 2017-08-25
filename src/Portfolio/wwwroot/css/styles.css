@@ -1,23 +1,49 @@
-﻿body {
-    //background-color: yellow;
+﻿
+.footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:100px;
 }
-.page-footer{
+
+.foot-ul{
     text-align:center;
 }
-.nav {
-   position: relative;
-   padding-left: 600px;
-}
-.logo{
-    width: 200px;
-        display: block;
-    margin: 0 auto;
+.foot-ul li{
+    display:inline-block;
+    text-align:center;
 }
 .welcome{
     text-align:center;
     font-family:'Courier New';
     font-weight:bold;
     color:#0094ff;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav ul li{
+    display:inline-block;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.githubLogo{
+    height: auto;
+    width: 20%;
+}
+
+.linkedInLogo{
+     height: auto;
+     width: 20%;
 }
 
 .jigglypuff-container{ text-align: center; padding: 25px 0; }
