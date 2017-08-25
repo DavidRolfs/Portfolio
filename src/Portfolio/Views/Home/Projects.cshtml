@@ -1,0 +1,13 @@
+﻿<p>see</p>
+
+@model IEnumerable<Portfolio.Models.GitHub>
+
+@foreach (var repo in Model)
+{
+    <li>
+        Url: @Html.DisplayFor(modelItem => repo.url)
+        <br />
+
+        Name: @Html.DisplayFor(modelItem => repo.name)
+    </li>
+}
