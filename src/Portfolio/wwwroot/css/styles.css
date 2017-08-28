@@ -1,4 +1,8 @@
-﻿
+﻿.projects{
+    display: inline;
+    list-style:none;
+}
+
 .footer{ 
   position:absolute; 
   bottom:0; 
@@ -9,10 +13,12 @@
 .foot-ul{
     text-align:center;
 }
+
 .foot-ul li{
     display:inline-block;
     text-align:center;
 }
+
 .welcome{
     text-align:center;
     font-family:'Courier New';
@@ -45,6 +51,14 @@
      height: auto;
      width: 20%;
 }
+
+.githubCat{
+    height: auto;
+    width: 20%;
+}
+
+
+
 
 .jigglypuff-container{ text-align: center; padding: 25px 0; }
 .jigglypuff{ width: 200px; height: 200px; background: #f6cdd6; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; transform: rotate(15deg); position: relative; z-index: 99; left: 30px; }

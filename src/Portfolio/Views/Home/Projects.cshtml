@@ -4,13 +4,17 @@
 }
 
 @model IEnumerable<Portfolio.Models.GitHub>
+<p>My top starred projects on Git Humb</p>
 
 @foreach (var repo in Model)
 {
-    <li>
-        Url: @Html.DisplayFor(modelItem => repo.url)
-        <br />
+    <ul>
+        <li class="projects">
+            <!--<img class="githubCa"src="https://s3.amazonaws.com/media.eremedia.com/uploads/2017/01/23143044/github4.jpg" /> -->
+            Url: @Html.DisplayFor(modelItem => repo.url)
+            <br />
 
-        Name: @Html.DisplayFor(modelItem => repo.name)
-    </li>
+            Name: @Html.DisplayFor(modelItem => repo.name)
+        </li>
+    </ul>
 }
